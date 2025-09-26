@@ -20,4 +20,4 @@ jobs:
         aws-region: us-east-1
         
     - name: Deploy Static Test Page to S3
-      run: aws s3 sync . s3://test-page-s3-1 --delete
+      run: aws s3 sync . s3://git-26-09-2025 --delete
